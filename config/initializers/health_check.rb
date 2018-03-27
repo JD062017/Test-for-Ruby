@@ -64,7 +64,7 @@ HealthCheck.setup do |config|
   #config.http_status_for_ip_whitelist_error = 403
 
   # When redis url is non-standard
-  config.redis_url = 'tcp://172.31.67.7:6379'
+  config.redis_url = 'tcp://ip-172-31-67-7.ec2.internal:6379'
 
   # Disable the error message to prevent /health_check from leaking
   # sensitive information
